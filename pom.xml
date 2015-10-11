@@ -75,10 +75,10 @@
     </prerequisites>
 
     <properties>
-        <mongo.min.version>2.13.0</mongo.min.version>
-        <mongo.max.version>3.0.0</mongo.max.version>
-        <jackson.version>2.4.1</jackson.version>
-        <bson4jackson.version>2.4.0</bson4jackson.version>
+        <mongo.min.version>3.0.0</mongo.min.version>
+        <mongo.max.version>3.0.4</mongo.max.version>
+        <jackson.version>2.6.2</jackson.version>
+        <bson4jackson.version>2.5.0</bson4jackson.version>
     </properties>
 
     <dependencies>
@@ -169,8 +169,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.4</version>
                 <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
             <plugin>
